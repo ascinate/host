@@ -1,12 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 
-//Image
-
-
-//Image
 import ione from "/o.png";
 import ithree from "/o2.png";
 import ifour from "/o3.png";
@@ -46,8 +42,8 @@ function Home() {
                             <div className='banner-tms01'>
                                 <h1 className='hero-main-text'>Hosting and <span> oracle </span> <strong> Services </strong> with Hosts</h1>
                                 <p className='sub-text mb-11'>Decentralizes hosting and oracle services by aggregating on and off-chain data.</p>
-                                <button type='button' className='theme-color-btn' id=''>Get Started</button>
-                                <button type='button' onClick={handleClick} className='white-color-btn ' id=''>Try Demo</button>
+                                <button type='button' className='theme-color-btn brn-btn' id=''>Get Started</button>
+                                <button type='button' onClick={handleClick} className='white-color-btn brn-btn' id=''>Try Demo</button>
                             </div>
                            
 
