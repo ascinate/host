@@ -459,8 +459,8 @@ header{
     -webkit-animation: faceleftright 2s alternate infinite;
     left: 100px;
     position: absolute;
-    bottom:20px;
-    width: 200px;
+    bottom: 0px;
+    width: 81px;
 }
 
 @keyframes faceleftright {
