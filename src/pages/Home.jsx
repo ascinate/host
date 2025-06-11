@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 
-import ione from "/o.png";
-import ithree from "/o2.png";
+import ione from "/image-01.png";
+import ithree from "/image-02.png";
 import ifour from "/o3.png";
-import isix from "/o4.png";
+import isix from "/hero-img-two.png";
 import CustomCursor from '../components/CustomCursor';
 
 
@@ -39,9 +39,10 @@ function Home() {
 
                     <div className='wrapper'>
                         <div className='container-hero relative'>
-                            <div className='banner-tms01'>
+                            <div className='banner-tms01 text-center w-full mx-auto'>
+                                <h6>Welcome to our site</h6>
                                 <h1 className='hero-main-text'>Hosting and <span> oracle </span> <strong> Services </strong> with Hosts</h1>
-                                <p className='sub-text mb-11'>Decentralizes hosting and oracle services by aggregating on and off-chain data.</p>
+                                <p className='sub-text mx-auto mb-11'>Decentralizes hosting and oracle services by aggregating on and off-chain data.</p>
                                 <button type='button' className='theme-color-btn brn-btn' id=''>Get Started</button>
                                 <button type='button' onClick={handleClick} className='white-color-btn brn-btn' id=''>Try Demo</button>
                             </div>

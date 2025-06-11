@@ -13,7 +13,7 @@
 
 body {
     font-family: "Inter", sans-serif;
-    background: #F7EDED;
+    background: #F5F8FF;
 }
 
 a {
@@ -60,12 +60,13 @@ li {
 }
 header {
     z-index: 99;
+        border-bottom: solid 1px #ebebeb;
 
 }
 
 /* navbar start */
 nav {
-    padding-block: 20px;
+    padding: 0;
 }
 
 .navLink ul>li {
@@ -312,15 +313,21 @@ nav li a:hover{
     color: var(--text-white) !important;
 
 }
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+}
 .signup-nows li:last-child a:hover{
     background-color:#e0b859 !important;
     color: #000 !important;
 }
 .section-hero{
-    background: #f7eded;
-background: linear-gradient(7deg,rgba(247, 237, 237, 1) 50%, rgba(255, 229, 186, 1) 100%);
     background-size: cover;
     width: 100%;
+    background: url(../public/bg-group.png) no-repeat;
+    padding-top: 100px;
 }
 .banner-tms01{
     width: 48%;
@@ -445,9 +452,9 @@ background: linear-gradient(7deg,rgba(247, 237, 237, 1) 50%, rgba(255, 229, 186,
 .ione-face {
     animation: faceleftright 2s alternate infinite;
     -webkit-animation: faceleftright 2s alternate infinite;
-    right: 100px;
+    left: 100px;
     position: absolute;
-    bottom: 80px;
+    bottom:20px;
     width: 200px;
 }
 
@@ -467,8 +474,8 @@ background: linear-gradient(7deg,rgba(247, 237, 237, 1) 50%, rgba(255, 229, 186,
 
 .ithree {
     position: absolute;
-    top: 60px;
-    right: 110px;
+    top: 200px;
+    left: 110px;
     width: 280px;
     animation: ithree 2s alternate infinite;
     -webkit-animation: ithree 2s alternate infinite;
@@ -578,7 +585,7 @@ background: linear-gradient(7deg,rgba(247, 237, 237, 1) 50%, rgba(255, 229, 186,
     position: absolute;
     top: 200px;
     right: 0%;
-    width: 80px;
+    width: 230px;
     aspect-ratio: 1;
     animation: pulse 1s infinite ease-in-out alternate;
 }
@@ -609,6 +616,16 @@ background: linear-gradient(7deg,rgba(247, 237, 237, 1) 50%, rgba(255, 229, 186,
     width: 142px;
 }
 
+.banner-tms01 h6{
+    background: #010101;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    display: table;
+    margin: auto;
+    font-size: 14px;
+    padding: 7px 20px;
+}
 @media (max-width: 1168px) {
     .hero-main-text,
     .hero-main-text span,

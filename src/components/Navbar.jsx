@@ -28,7 +28,7 @@ function Navbar() {
     return (
         <>
         <header className='float-left w-full'>
-           <nav className="bg-white float-left border-gray-200 dark:bg-gray-900 w-full">
+           <nav className="float-left border-gray-200 dark:bg-gray-900 w-full">
                <div className='container mx-auto'>
                    <div className="max-w-screen-xl moible-full flex flex-wrap items-center mx-auto p-4">
                         <NavLink to='/' className="flex loggos items-center space-x-3 rtl:space-x-reverse">
@@ -42,7 +42,7 @@ function Navbar() {
                         </button>
 
                         <div className="md:block md:w-auto" id="navbar-default">
-                            <ul className="font-medium signup-nows flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                            <ul className="font-medium signup-nows flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                                 {navItems.map((item, index) => (
                                     <li key={index}>
                                     <NavLink to={item.path} className={navLinkClass}>
