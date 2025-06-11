@@ -671,6 +671,9 @@ main{
     main{
         overflow: hidden;
     }
+    .signup01 {
+        right: -30px;
+    }
 }
 @media(max-width:910px){
     #navbar-default{
