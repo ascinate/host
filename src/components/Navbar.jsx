@@ -8,7 +8,6 @@ import { NavLink } from 'react-router-dom';
     { name: 'Pricing', path: '' },
     { name: 'Blog', path: '' },
     { name: 'Contact', path: '' },
-    { name: 'Sign up Now', path: '' }
     ];
 
 function Navbar() {
