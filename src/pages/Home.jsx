@@ -43,7 +43,7 @@ function Home() {
                                 <h6>Welcome to our site</h6>
                                 <h1 className='hero-main-text'>Hosting and <span> oracle </span> <strong> Services </strong> with Hosts</h1>
                                 <p className='sub-text mx-auto mb-11'>Decentralizes hosting and oracle services by aggregating on and off-chain data.</p>
-                                <button type='button' className='theme-color-btn brn-btn' id=''>Get Started</button>
+                                <button type='button' onClick={handleClick} className='theme-color-btn brn-btn' id=''>Get Started</button>
                                 <button type='button' onClick={handleClick} className='white-color-btn brn-btn' id=''>Try Demo</button>
                             </div>
                            
