@@ -299,6 +299,10 @@ nav li a:hover{
 }
 .signup-nows li a{
  padding: 12px 11px;
+ font-weight: 600;
+}
+.banner-tms01 .sub-text{
+     font-weight: 600;
 }
 .signup-nows li:last-child a{
     background: #ed242b;
