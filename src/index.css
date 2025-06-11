@@ -332,6 +332,7 @@ header{
 .banner-tms01{
     width: 48%;
     padding-top: 70px;
+  
 }
 .border-round-bar{
     border-radius: 50px;
@@ -642,6 +643,11 @@ header{
     }
 }
 
+@media(max-width:1025px){
+    main{
+        overflow: hidden;
+    }
+}
 @media(max-width:910px){
     #navbar-default{
         display: none;
