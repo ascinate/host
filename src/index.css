@@ -644,6 +644,9 @@ header{
     background: var(--secondary-theme-color) !important;
 }
 
+main{
+    overflow: hidden;
+}
 @media (max-width: 1168px) {
     .hero-main-text,
     .hero-main-text span,
