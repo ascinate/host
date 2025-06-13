@@ -151,7 +151,7 @@ nav {
 }
 
 .hero-main-text {
-    font-size: 55px;
+    font-size: 65px;
 
 }
 
@@ -377,7 +377,7 @@ header{
 }
 
 .hero-main-text {
-    font-size: 50px;
+    font-size: 65px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 300;
     letter-spacing: -0.03em;
@@ -386,7 +386,7 @@ header{
     margin-bottom: 20px;
 }
 .hero-main-text span{
-    font-size: 50px;
+    font-size: 65px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700; 
     position: relative;
@@ -395,7 +395,7 @@ header{
 }
 
 .hero-main-text strong{
-    font-size: 50px;
+    font-size: 65px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: 700; 
     position: relative;
